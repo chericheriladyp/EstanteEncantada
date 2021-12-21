@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" type = "text/css" href ="estilo.css">
+    <title>Estante Encantada</title>
+</head>
+<body>
+
+ 
+ <div class="formulario">
+    <center>
+     <ul>
+        <li> <a href="index.html">Home</a></li>
+        <li> <a href="produtos.html">Produtos</a></li>
+        <li> <a href="formulario.html">Formulário</a></li>
+
+     </ul>
+     </center>
+<br>
+<br>
+
+<fieldset>
+<form  action="resp.php" method="get">
+        <legend> <h3> Dados Pessoais: </h3></legend>
+        <label for="nc"> Nome completo</label>
+        <input type="text" name="nomecompleto" id="nc" placeholder="Digite seu nome completo">
+        <br>
+        <label for="num"> Idade</label>
+        <input type="number" id="num" placeholder="Informe sua idade">
+        <br>
+        <label for="email"> Email</label>
+        <input type="email" id="email" placeholder="Informe seu email">
+        <br>
+        <label for="number"> Ano de Nascimento</label>
+        <input type="number" id="number" placeholder="Em que ano nasceu?">
+        <br>
+        <legend> Sexo: </legend>
+            <input type="radio" name="esc" id="if1" value="op1">
+            <label for="if1">Masculino</label>
+            <input type="radio" name="esc" id="if2" value="op2">
+            <label for="if2">Feminino</label>
+            <input type="radio" name="esc" id="if3" value="op3">
+            <label for="if3">Outros gêneros</label>
+</form>
+</fieldset>
+
+<br>
+
+<fieldset>
+<form  action="resp.php" method="get">
+        <legend> <h3> Endereço: </h3> </legend>
+        <label for="nc"> Logradouro</label>
+        <input type="text" name="nomecompleto" id="nc" placeholder="Rua, Avenida, Alameda...">
+        <br>
+        <label for="nc">Nome da Rua, Avenida...</label>
+        <input type="text" name="nomecompleto" id="nc" placeholder="Ex: Hugo Schlosser">
+        <br>
+        <label for="num"> Número</label>
+        <input type="number" id="num" placeholder="Ex: 605">
+        <br>
+        <label for="nc">Bairro</label>
+        <input type="text" name="nomecompleto" id="nc" placeholder="Ex: Jardim Maluche">
+        <br>
+        <label for="nc">Cidade</label>
+        <input type="text" name="nomecompleto" id="nc" placeholder="Ex: Brusque">
+    </form>   
+    </fieldset>
+
+<br>
+
+<fieldset>
+<form  action="resp.php" method="get">
+        <legend><h3> Orçamento: </h3></legend>
+        <label for="nc"> Produto</label>
+        <input type="text" name="nomecompleto" id="nc" placeholder="Nome do produto">
+        <br>
+        <label for="num">Quantidade</label>
+        <input type="number" id="num" placeholder="Quantidade desejada">
+        <br>
+        <label for="number">Preço visto no site</label>
+        <input type="number" id="number" placeholder="Preço anunciado">
+        <br>
+        <legend> Forma de Pagamento: </legend>
+            <input type="radio" name="esc" id="if1" value="op1">
+            <label for="if1">Dinheiro</label>
+            <input type="radio" name="esc" id="if2" value="op2">
+            <label for="if2">Cartão de crédito</label>
+            <input type="radio" name="esc" id="if3" value="op3">
+            <label for="if3">Cartão de débito</label>
+         <br>
+        <label for="number">Porcentagem de desconto pretendido</label>
+        <input type="number" id="number" placeholder="Porcentagem desejada">
+
+<br>
+<br>
+        <input type="submit" name="submit" value="Enviar">
+        <input type="reset" name="resetar" value="Resetar">
+
+
+</fieldset>
+    </form>
+
+</body>
+</html>

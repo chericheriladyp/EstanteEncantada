@@ -1,0 +1,97 @@
+body {
+	background-color: #E8D7D0;
+}
+
+
+
+.Menu ul{
+    padding: 10px;
+    margin: 10px;
+    background-color: #2E2C2D;
+    list-style: none;
+    width: 550px;
+}
+.Menu ul li{
+            display: inline;
+            font-display: garamond ;
+}
+.Menu ul li a {
+    padding: 9px 10px;
+    display: inline-block;
+    background-color: #E8D7D0;
+    color: #2E2C2D;
+    text-decoration: none;
+    border-bottom: none; 
+    font-size: 25px;
+}
+
+
+
+
+.produtos ul{
+    padding: 10px;
+    margin: 10px;
+    background-color: #2E2C2D;
+    list-style: none;
+    width: 550px;
+}
+.produtos ul li{
+            display: inline;
+            font-display: garamond ;
+}
+.produtos ul li a {
+    padding: 9px 10px;
+    display: inline-block;
+    background-color: #E8D7D0;
+    color: #2E2C2D;
+    text-decoration: none;
+    border-bottom: none; 
+    font-size: 25px;
+}
+
+
+
+	
+.formulario ul{
+    padding: 10px;
+    margin: 10px;
+    background-color: #2E2C2D;
+    list-style: none;
+    width: 550px;
+}
+.formulario ul li{
+            display: inline;
+            font-display: garamond ;
+}
+.formulario ul li a {
+    padding: 9px 10px;
+    display: inline-block;
+    background-color: #E8D7D0;
+    color: #2E2C2D;
+    text-decoration: none;
+    border-bottom: none; 
+    font-size: 25px;
+}
+
+
+
+.imagemlogo img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 340px;
+	border: solid;
+	border-color: #2E2C2D;
+}
+
+
+
+.imgsprodutos img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	height: 250px;
+	border: solid;
+	border-color: #2E2C2D;
